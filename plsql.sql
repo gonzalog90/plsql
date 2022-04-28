@@ -94,6 +94,7 @@ end select_usuario_por_id;
 /
 
 
+/*procedure con dos parametros de entrada */
 CREATE OR REPLACE procedure cambiar_nombre_usuario (V_ID USUARIOS.ID%TYPE, V_NUEVO_NOMBRE VARCHAR2)
 
 as
