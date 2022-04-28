@@ -221,7 +221,7 @@ END LOOP;
 CLOSE C1;
 END;
 
-
+/*otro procedure con bucle */
 CREATE OR REPLACE PROCEDURE lista_provincias
 as
 CURSOR C1
