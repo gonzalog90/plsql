@@ -153,7 +153,7 @@ end mostrar_usuariosBUCLEFOR;
 
 
 
-
+/*bucle cursor explicito + while + alias de columna */
 create or replace procedure lista_emple_total
 as
 cursor c_emple is
