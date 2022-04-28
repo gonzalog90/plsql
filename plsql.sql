@@ -116,7 +116,7 @@ when no_data_found then dbms_output.put_line('la seleccion no ha devuelto ningun
 when others then dbms_output.put_line('error');
 end cambiar_nombre_usuario;
 
-
+/* procedure complejo -- cursor explicito + while */
 create or replace procedure mostrar_usuarios
 as
 cursor c1
